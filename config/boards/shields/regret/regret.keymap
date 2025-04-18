@@ -131,13 +131,13 @@ macros {
 //             >;
 //         };
 
-//         DE {
-//             bindings = <
-// &trans      &trans  &trans  &trans      &trans      &trans    &trans    &trans  &trans  &kp ENTER
-// &kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &trans    &kp LS(N1)    &hr LSHIFT LS(MINUS)  &trans  &kp MINUS
-// &trans      &trans  &trans  &trans      &trans      &trans    &trans          &trans  &trans  &trans
-//                         &trans      &trans      &trans          &trans  
-//             >;
-//         };
+        DE {
+            bindings = <
+&trans      &trans  &trans  &trans      &trans      &trans    &trans    &trans  &trans  &kp ENTER
+&kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &trans    &kp LS(N1)    &hr LSHIFT LS(MINUS)  &trans  &kp MINUS
+&trans      &trans  &trans  &trans      &trans      &trans    &trans          &trans  &trans  &trans
+                        &trans      &trans      &trans          &trans  
+            >;
+        };
     };
 };
