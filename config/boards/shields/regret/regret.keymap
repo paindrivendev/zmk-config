@@ -12,6 +12,7 @@ combo_##NAME { \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
 };
+/{
 behaviors {
         
         hl: homerow_mods_left {
