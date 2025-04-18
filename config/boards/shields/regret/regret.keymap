@@ -114,14 +114,14 @@ macros {
                                             &lt 1 SPACE     &lt 2 TAB   &kp LALT    &lt 3 BSPC
             >;
         };
- //       Num {
-  //          bindings = <
-  //  &kp F1      &kp F2        &kp F3           &kp F4           &kp F5     &kp F6         &kp F7       &kp F8       &kp F9       &kp F10
-  //  &kp N1      &hl LALT N2   &hl LSHFT N3     &hl LCTRL N4     &kp N5     &kp N6         &hr LCTRL N7 &hr LSHFT N8 &hr LALT N9  &kp N0
-  //  &kp DEL     &kp RA(N7)    &kp RA(N8)       &kp LS(N8)       &kp FSLH   &kp LS(FSLH)   &kp RBRC     &kp SLASH   &kp LS(RBRC)   &kp LS(N7) 
-  //                                              &trans           &trans     &trans          &trans   
-//         >;
-//       }; 
+       Num {
+           bindings = <
+   &kp F1      &kp F2        &kp F3           &kp F4           &kp F5     &kp F6         &kp F7       &kp F8       &kp F9       &kp F10
+   &kp N1      &hl LALT N2   &hl LSHFT N3     &hl LCTRL N4     &kp N5     &kp N6         &hr LCTRL N7 &hr LSHFT N8 &hr LALT N9  &kp N0
+   &kp DEL     &kp RA(N7)    &kp RA(N8)       &kp LS(N8)       &kp FSLH   &kp LS(FSLH)   &kp RBRC     &kp SLASH   &kp LS(RBRC)   &kp LS(N7) 
+                                               &trans           &trans     &trans          &trans   
+        >;
+      }; 
 //         Nav {
 //             bindings = <
 //     &kp TAB     &kp HOME     &kp UP        &kp END        &snip        &kp LS(N5)   &kp LS(N2)         &kp BSLS            &kp GRAVE    &kp NUHS
