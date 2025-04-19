@@ -60,13 +60,13 @@ behaviors {
             bindings = <&rgb_ug RGB_TOG>;
         };
         COMBO(shiftablesch, &macro_shiftable_sch, 17 18, 0)
-        COMBO(LT,   &kp NUBS,       21  22, 0) 
-        COMBO(GT,   &kp LS(NUBS),   27  28, 0)
-        COMBO(DOT,  &kp DOT,        12  13, 0)
+        COMBO(LT,   &kp NUBS,       21  22, 0 1) 
+        COMBO(GT,   &kp LS(NUBS),   27  28, 0 1)
+        COMBO(DOT,  &kp DOT,        12  13, 0 1)
         COMBO(CMA,&kp COMMA,        16  17, 0 1)
-        COMBO(ESC,  &kp ESC,        10  1,  0)
-        COMBO(SQT,  &kp LS(NUHS),   22  23, 0)
-        COMBO(DQT,  &kp LS(N2),     26  27, 0)
+        COMBO(ESC,  &kp ESC,        10  1,  0 1)
+        COMBO(SQT,  &kp LS(NUHS),   22  23, 0 1)
+        COMBO(DQT,  &kp LS(N2),     26  27, 0 1)
         COMBO(EQL,  &kp LS(N0),     26  27, 1)
         COMBO(ENTR, &kp ENTER,      7   8,  0 1 2 3)
         COMBO(TAB, &kp TAB,         1   2,  0 1 2 3)
@@ -135,7 +135,7 @@ macros {
     keymap {
         compatible = "zmk,keymap";
 
-        Base  {
+        Base  {m********////*******---********___---***77***--********
 // ------------------------------------------------------------------------------------------------------
 // |    0    |    1    |    2    |    3    |    4    |    5    |    6    |    7    |    8    |    9    |
 // |   10    |   11    |   12    |   13    |   14    |   15    |   16    |   17    |   18    |   19    |
@@ -152,15 +152,15 @@ macros {
            bindings = <
    &kp F1      &kp F2        &kp F3           &kp F4           &kp F5     &kp F6         &kp F7       &kp F8       &kp F9       &kp F10
    &kp N1      &hl LALT N2   &hl LSHFT N3     &hl LCTRL N4     &kp N5     &kp N6         &hr LCTRL N7 &hr LSHFT N8 &hr LALT N9  &kp N0
-   &kp DEL     &macro_brc3   &macro_brc2      &macro_brc1      &kp FSLH   &kp LS(FSLH)   &kp RBRC     &kp SLASH   &kp LS(RBRC)   &kp LS(N7) 
+   &kp DEL     &macro_brc3   &macro_brc2      &macro_brc1      &kp FSLH   &kp LS(FSLH)   &kp RBKT     &kp SLASH   &kp LS(RBKT)   &kp LS(N7) 
                                                &trans           &trans     &trans          &trans   
         >;
       }; 
         Nav {
             bindings = <
     &kp TAB     &kp HOME     &kp UP        &kp END        &snip        &kp LS(N5)   &kp LS(N2)      &kp BSLH         &kp GRAVE    &kp NUHS
-    &kp DEL     &kp LEFT     &hl LSHFT DOWN &kp RIGHT     &kp LC(S)    &kp LS(N0)   &hr LCTRL RBRC  &hr LSHIFT SLASH &hr LALT LS(RBRC)      &kp LS(N7)
-    &kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(GRAVE) &kp LS(N6)         &kp RA(BSLH)       &kp RA(RBRC)  &kp RA(MINUS)
+    &kp DEL     &kp LEFT     &hl LSHFT DOWN &kp RIGHT     &kp LC(S)    &kp LS(N0)   &hr LCTRL RBKT  &hr LSHIFT SLASH &hr LALT LS(RBKT)      &kp LS(N7)
+    &kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(GRAVE) &kp LS(N6)         &kp RA(BSLH)       &kp RA(RBKT)  &kp RA(MINUS)
                                            &trans         &trans       &trans       &trans 
             >;
         };
