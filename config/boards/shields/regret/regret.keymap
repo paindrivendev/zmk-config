@@ -175,10 +175,10 @@ macros {
 
         DE {
             bindings = <
-&trans      &trans  &trans  &trans      &trans      &trans    &trans    &trans  &trans  &kp ENTER
-&kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &trans    &kp LS(N1)    &hr LSHIFT LS(MINUS)  &trans  &kp MINUS
- &rgb_ug RGB_SPD     &rgb_ug RGB_SPI  &trans  &trans      &trans      &trans    &trans          &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
-                        &trans      &trans      &trans          &trans  
+&trans              &trans          &trans          &trans          &trans    &trans    &trans          &trans              &trans           &kp ENTER
+&kp LBKT            &trans          &kp SQT         &kp RA(E)       &kp SEMI  &trans    &kp LS(N1)      &hr LSHIFT LS(MINUS)  &trans         &kp MINUS
+&rgb_ug RGB_SPD     &rgb_ug RGB_SPI &rgb_ug RGB_BRD &rgb_ug RGB_BRI &trans    &trans    &rgb_ug RGB_HUD &rgb_ug RGB_HUI     &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
+                                                    &trans          &trans    &trans    &trans  
             >;
         };
     };
