@@ -143,7 +143,7 @@ macros {
             bindings = <
 &trans      &trans  &trans  &trans      &trans      &trans    &trans    &trans  &trans  &kp ENTER
 &kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &trans    &kp LS(N1)    &hr LSHIFT LS(MINUS)  &trans  &kp MINUS
-&trans      &trans  &trans  &trans      &trans      &trans    &trans          &trans  &trans  &trans
+ &rgb_ug RGB_SPD     &rgb_ug RGB_SPI  &trans  &trans      &trans      &trans    &trans          &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
                         &trans      &trans      &trans          &trans  
             >;
         };
